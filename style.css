@@ -1,20 +1,41 @@
-body, html {
-	margin:0;
+html body{
 	font-family: 'Open Sans', sans-serif;
-}
-h1 {
-	padding:100px;
-	text-align:center;
 	margin:0;
+	padding:0;
+}
+#header {
+	background-color:black;
+	height:60px;
+	margin-top:0;
+}
+a:link {
+	text-decoration: none;
+	color:black;
+}
+ul li {
+	float:right;
+	display:block;
+	text-transform: uppercase;
+	margin: 20px 40px 20px 0;
+	color:white;
+	padding:0;
+	font-size:15px;
+}
+ul {
+	margin:0 80px 0 0;
 }
 #cover {
-	background-image: url("coverirf.jpg");
-	background-size:contain;
-	min-height:500px;
-	background-repeat:no-repeat;
-	margin:0;
+	clear:both;
+	text-align:center;
+	padding:80px;
+	border-bottom:1px solid black;
+	margin-top:0;
 }
-#fom {
-	font-size:20px;
+#cover h1 {
+	font-size:40px;
 	text-transform: uppercase;
+	font-weight:lighter;
+	letter-spacing:8px;
+	margin-top:30px;
+	padding:0;
 }
