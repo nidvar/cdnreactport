@@ -1,0 +1,8 @@
+nav ul li {
+	float:right;
+	display:block;
+}
+#cover {
+	clear:both;
+	text-align:center;
+}
