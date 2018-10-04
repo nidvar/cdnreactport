@@ -1,0 +1,20 @@
+body, html {
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	padding:100px;
+	text-align:center;
+	margin:0;
+}
+#cover {
+	background-image: url("coverirf.jpg");
+	background-size:contain;
+	min-height:500px;
+	background-repeat:no-repeat;
+	margin:0;
+}
+#fom {
+	font-size:20px;
+	text-transform: uppercase;
+}
