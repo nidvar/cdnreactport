@@ -24,20 +24,18 @@ html body {
 }
 /* ************************* */
 
-.main {
-	height:900px;
-}
 .title {
-	background-color:wheat;
+	margin-top:210px;
 	height:100%;
-	width:60%;
+	width:55%;
 	float:left;
+	border-right:2px solid black;
 }
 .title h1{
-	margin:210px 0 0 200px;
+	margin:0 0 0 100px;
 }
 .title h2{
-	margin:0 0 0 200px;
+	margin:0 0 0 100px;
 }
 .title h1,h2 {
 	font-size:60px;
@@ -50,11 +48,15 @@ html body {
 	font-family: 'Montserrat', sans-serif;
 }
 .details {
-	background-color:skyblue;
-	height:100%;
-	width:40%;
 	float:left;
+	margin-top:210px;
+	height:100%;
+	width:30%;
+	text-align:justify;
 }
 .footer {
 	clear:both;
+}
+.details p{
+	margin: 50px 0 0 20px;
 }
