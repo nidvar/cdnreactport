@@ -22,27 +22,22 @@ ul li {
 ul {
 	margin:0 80px 0 0;
 }
-#cover {
-	clear:both;
+.title {
+	display:grid;
+	grid-template-columns: auto;
 	text-align:center;
-	margin-top:0;
+	width:25%;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3), 
+				0 1px 10px 0 rgba(0, 0, 0, 0.19);
 }
-#cover h1 {
-	font-size:40px;
+.title h1 {
 	text-transform: uppercase;
+	letter-spacing:4px;
 	font-weight:lighter;
-	letter-spacing:8px;
-	margin-top:30px;
-	padding:0;
+	font-size:40px;
 }
-.boxes {
-	width:300px;
-	height:300px;
-	display:inline-block;
-	background-color:wheat;
-	margin:auto;
-}
-#tech {
-	width:1000px;
-	margin:auto;
-}
+
