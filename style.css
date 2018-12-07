@@ -1,50 +1,60 @@
-html body{
-	font-family: 'Open Sans', sans-serif;
+html body {
 	margin:0;
-	padding:0;
+	font-family: 'Open Sans', sans-serif;
 }
-#header {
-	height:60px;
-	margin-top:0;
+/* ************************* */
+.vertnav {
+	background-color:black;
+	height:100%;
+	width:50px;
+	position:fixed;
 }
-a:link {
-	text-decoration: none;
-	color:black;
+#home {
+	margin-top:200px;
 }
-ul li {
-	float:right;
-	display:block;
-	text-transform: uppercase;
-	margin: 20px 40px 20px 0;
-	padding:0;
-	font-size:15px;
+#home img {
+	margin:250px 0 20px 13px;
+	height:20px;
+	width:20px;
 }
-ul {
-	margin:0 80px 0 0;
+.icons img {
+	margin:0 0 20px 10px;
+	height:25px;
+	width:25px;
+}
+/* ************************* */
+
+.main {
+	height:900px;
 }
 .title {
-	display:grid;
-	grid-template-columns: auto;
-	text-align:center;
-	width:25%;
-    margin-top: 100px;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-left: auto;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3), 
-				0 1px 10px 0 rgba(0, 0, 0, 0.19);
+	background-color:wheat;
+	height:100%;
+	width:60%;
+	float:left;
 }
-.title h1 {
-	text-transform: uppercase;
-	letter-spacing:4px;
+.title h1{
+	margin:210px 0 0 200px;
+}
+.title h2{
+	margin:0 0 0 200px;
+}
+.title h1,h2 {
+	font-size:60px;
+	text-transform:uppercase;
 	font-weight:lighter;
-	font-size:40px;
+	letter-spacing:10px;
 }
-@media only screen and (max-width: 640px) {
-	.title h1 {
-		font-size:60px;
-	}
-	.title {
-		width:40%;
-	}
+.titledec {
+	font-size:100px;
+	font-family: 'Montserrat', sans-serif;
+}
+.details {
+	background-color:skyblue;
+	height:100%;
+	width:40%;
+	float:left;
+}
+.footer {
+	clear:both;
 }
