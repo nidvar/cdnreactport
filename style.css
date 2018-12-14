@@ -1,62 +1,63 @@
-html body {
+body {
+	background-image:url(images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin:0;
-	font-family: 'Open Sans', sans-serif;
+	font-family:Arial,Helvetica,sans-serif;
 }
-/* ************************* */
-.vertnav {
-	background-color:black;
+.menubox{
 	height:100%;
-	width:50px;
+	width:80px;
+	margin-left:200px;
 	position:fixed;
 }
-#home {
-	margin-top:200px;
-}
-#home img {
-	margin:250px 0 20px 13px;
-	height:20px;
-	width:20px;
-}
-.icons img {
-	margin:0 0 20px 10px;
-	height:25px;
-	width:25px;
-}
-/* ************************* */
-
-.title {
-	margin-top:210px;
+.container {
+	display:grid;
 	height:100%;
-	width:55%;
-	float:left;
-	border-right:2px solid black;
+	grid-template-columns: 1fr 80px 6fr;
+	grid-template-rows: 17vh 83vh;
 }
-.title h1{
-	margin:0 0 0 100px;
+.blackbox{
+	min-height:100px;
+	background-color:black;
 }
-.title h2{
-	margin:0 0 0 100px;
+.menu{
+	background-color:rgb(0, 0, 0, 0.5);
+	text-align:left;
+	margin-top:2px;
+	padding: 2px 0 0 5px;
 }
-.title h1,h2 {
-	font-size:60px;
+.menu h1 {
+	margin:0;
+	color:#999;
 	text-transform:uppercase;
-	font-weight:lighter;
-	letter-spacing:10px;
+	font-size:12px;
+	transform: scale(1, 0.9);
 }
-.titledec {
-	font-size:100px;
-	font-family: 'Montserrat', sans-serif;
+.second a:link {
+	text-decoration:none;
+	color:#999;
 }
-.details {
-	float:left;
-	margin-top:210px;
-	height:100%;
-	width:30%;
+.second a:visited {
+  	text-decoration:none;
+	color:#999;
+}
+.second a:hover {
+  	text-decoration:none;
+	color:#999;
+}
+.second a:active {
+ 	text-decoration:none;
+	color:#999;
+}
+.description {
+	width:50%;
+	padding-left:100px;
 	text-align:justify;
+	font-size:15px;
 }
-.footer {
-	clear:both;
-}
-.details p{
-	margin: 50px 0 0 20px;
+.description h1 {
+	margin:0;
+	text-transform: uppercase;
+	font-size:40px;
 }
