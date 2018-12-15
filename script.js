@@ -1,5 +1,5 @@
 if(document.URL.indexOf("https://nidvar.github.io/") >= 0){
-	    	document.querySelector('.homeb').classList.add('blink');
+	document.querySelector('.homeb').classList.add('blink');
         document.querySelector('.aboutb').classList.remove('blink');
         document.querySelector('.workb').classList.remove('blink');
         document.querySelector('.contactb').classList.remove('blink');
