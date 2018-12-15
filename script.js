@@ -1,4 +1,4 @@
-if(document.URL.indexOf("https://nidvar.github.io/") >= 0){
+if(document.URL.indexOf("https://nidvar.github.io/index.html") >= 0){
 	document.querySelector('.homeb').classList.add('blink');
         document.querySelector('.aboutb').classList.remove('blink');
         document.querySelector('.workb').classList.remove('blink');
