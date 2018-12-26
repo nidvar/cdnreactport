@@ -2,6 +2,7 @@ html, body{
 	margin:0;
 	font-family: 'Open Sans', sans-serif;
 	height:100%;
+	background-color:rgb(243, 243, 243);
 }
 .homeSection{
 	display:flex;
@@ -24,8 +25,6 @@ html, body{
 }
 .navbar{
 	color:white;
-}
-.navbar{
 	display:flex;
 	text-transform:uppercase;
 	font-size:12px;
@@ -73,6 +72,12 @@ ul li {
 }
 .aboutBox{
 	height:300px;
+	width:600px;
+	background-color:wheat;
+	margin:10px;
+}
+.aboutBoxPic{
+	height:300px;
 	width:300px;
 	background-color:wheat;
 	margin:10px;
@@ -107,4 +112,18 @@ ul li {
 	height:1px;
 	width:30px;
 	background-color:white;
+}
+.aboutSection h2{
+	margin:0;
+}
+.contactBox{
+	height:500px;
+	width:500px;
+	background-color:lightgray;
+	margin:10px;
+}
+.footer{
+	background-color:#191919;
+	height:40px;
+	margin:50px 0 0 0;
 }
