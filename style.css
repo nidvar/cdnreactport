@@ -37,11 +37,9 @@ ul li {
 .navbar a:visited{
 	color:black;
 }
-.hide{
-	display:none;
-}
 .title{
 	text-align:center;
+	margin-bottom:30px;
 }
 .title h1{
 	margin:0;
@@ -50,11 +48,39 @@ ul li {
 	font-size:40px;
 }
 .title p{
-	margin:5px 0 0 0;
+	margin:0 0 0 0;
+	line-height:1;
 }
 .hometitle{
 	margin-top:35vh;
 }
 .othertitle{
 	margin-top:10vh;
+}
+.aboutBox{
+	height:300px;
+	width:300px;
+	background-color:wheat;
+	margin:10px;
+}
+.deco{
+	display:flex;
+	justify-content: center;
+}
+.line{
+	margin:8px 5px 0 5px;
+	height:1px;
+	width:30px;
+	background-color:black;
+}
+.portfolioBox{
+	height:200px;
+	width:200px;
+	background-color:skyblue;
+	margin:10px;
+}
+.allSection{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
 }
