@@ -140,6 +140,9 @@ ul li {
 .footer a:hover{
 	color:orange;
 }
+.footer a:visited{
+	color:white;
+}
 .smbox{
 	display:flex;
 	justify-content: center;
