@@ -168,18 +168,16 @@ ul li {
 .smicon:hover{
 	background-color:orange;
 }
-@media only screen and (max-width: 700px) {
-  .aboutBoxPic {
-    margin:5px 0 5px 0;
+@media only screen and (max-width: 360px) {
+  .aboutBoxPic img{
+    margin:20px 0 5px 0;
   }
   .lastp{
   	margin-bottom:10px;
   }
   .aboutSection{
-  	height:700px;
+  	height:750px;
   }
-}
-@media only screen and (max-width: 700px) {
   .hometitle{
 	margin-top:30vh;
 	border:1px solid white;
