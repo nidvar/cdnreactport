@@ -100,8 +100,8 @@ ul li {
 .portfolioBox{
 	height:200px;
 	width:200px;
-	background-color:skyblue;
 	margin:10px;
+	background-color:lightgray;
 }
 .allSection{
 	display:flex;
@@ -167,4 +167,27 @@ ul li {
 }
 .smicon:hover{
 	background-color:orange;
+}
+@media only screen and (max-width: 700px) {
+  .aboutBoxPic {
+    margin:5px 0 5px 0;
+  }
+  .lastp{
+  	margin-bottom:10px;
+  }
+  .aboutSection{
+  	height:700px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .hometitle{
+	margin-top:30vh;
+	border:1px solid white;
+	padding:20px 10px 35px 10px;
+	width:80vw;
+	}
+	.navbar div{
+	margin:auto;
+	padding-top:10px;
+	}
 }
