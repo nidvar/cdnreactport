@@ -75,14 +75,17 @@ ul li {
 .aboutBox{
 	height:300px;
 	width:600px;
-	background-color:wheat;
 	margin:10px;
+	text-align:justify;
 }
 .aboutBoxPic{
 	height:300px;
 	width:300px;
-	background-color:wheat;
 	margin:10px;
+}
+.aboutBoxPic img{
+	height:300px;
+	width:325px;
 }
 .deco{
 	display:flex;
@@ -132,6 +135,7 @@ ul li {
 	padding:20px 0 10px 0;
 	color:white;
 	font-size:15px;
+	font-weight:lighter;
 }
 .footer a:link{
 	text-decoration: none;
