@@ -5,8 +5,8 @@ class Parallax extends React.Component{
                 {/* start here */}
 
 
-                <div className='parallax1'>
-                    <Statement heading='lorem ipsum' />
+                <div className={this.props.style_prop}>
+                    <Statement text='inside parallax' />
                 </div>
                 
 

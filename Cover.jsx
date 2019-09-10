@@ -7,7 +7,6 @@ class Cover extends React.Component{
                 
 
                 <div className='cover1'>
-
                 </div>
                 
 

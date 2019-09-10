@@ -1,16 +1,12 @@
-const styles={
-    textDecoration: 'none',
-    color:'white'
-}
 class Nav extends React.Component{
     render(){
         return(
             <div>
-                <div className='nav1'>
-                    <ul>
-                        <li><a href='#' style={styles}>APPS</a></li>
-                        <li><a href='#' style={styles}>SAMPLE</a></li>
-                        <li><a href='#' style={styles}>RESUME</a></li>
+                <div className='nav'>
+                    <ul className='ulcontainer'>
+                        <li><a href='#'>APPS</a></li>
+                        <li><a href='#'>WEBSITES</a></li>
+                        <li><a href='#'>RESUME</a></li>
                     </ul>
                 </div>
             </div>

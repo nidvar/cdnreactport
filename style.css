@@ -1,32 +1,85 @@
-html body{
+html, body{
 	margin:0;
+}
+h1{
+	font-weight:lighter;
+	letter-spacing: 1px;
+}
+.display{
 	text-align:center;
 }
-/* ****************************************** */
-.nav1{
-	height:100vh;
-	background-image:url('images/bg.jpg');
+.body{
+	max-width:1000px;
+	margin:auto;
 	display:flex;
-	justify-content: flex-end;
-	padding:0 100px 0 0;
-	color:white;
+	justify-content: center;
+	flex-wrap: wrap;
 }
-.nav1 ul{
-	display:flex;
-}
-.nav1 li{
-	display:block;
-	margin:30px 50px 0 0;
-	letter-spacing: 1px;
-	font-size:14px;
-}
-/* ****************************************** */
-.parallax1{
+/* HEADER AREA  */
+.header{
+	background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ), url('images/bg.jpg') no-repeat center;
+	background-color: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) );
+	background-size:cover;
 	display:flex;
 	flex-direction: column;
-	height:300px;
-	background-color:lightcoral;
-	border:1px solid black;
-
+	color:white;
+	height:80vh;
+}
+.header-statement{
+	border:1px solid white;
+	padding:10px 20px 0px 20px;
+}
+.ulcontainer{
+	margin:0;
+	padding:0;
+	width:100vw;
+	display:flex;
+	justify-content: space-around;
+}
+.ulcontainer li{
+	list-style-type:none;
+	margin:20px 7px 7px 7px;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+	color:white;
+}
+.flex-container{
+	height:90%;
+	display:flex;
+	flex-direction: column;
 	justify-content: center;
+}
+.appbox img{
+	display:none;
+}
+
+/* ************ */
+.parallax1{
+	background-color:skyblue;
+}
+.statement-global{
+	display:flex;
+	justify-content: center;
+	margin:40px;
+}
+@media only screen and (min-width: 600px) {
+	.appbox{
+		box-shadow: 2px 2px 1px grey;
+		border-radius:3px;
+		background-color:white;
+		padding:20px 20px 0 20px;
+		margin:20px;
+	}
+	.appbox:hover{
+		box-shadow: 10px 10px 5px grey;
+	}
+	.appbox img{
+		display:block;
+		height:150px;
+	}
 }

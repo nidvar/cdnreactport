@@ -1,15 +1,14 @@
 class Statement extends React.Component{
     render(){
         return(
-            <div>
+            <div className='statement-global'>
                 {/* start here */}
 
                 
 
-                <div className='statement1'>
-                    <h1>{this.props.bigheading}</h1>
-                    <h1>{this.props.heading}</h1>
-                    <h4>{this.props.blurb}</h4>
+                <div className={this.props.style_prop}>
+                    <h1>{this.props.text}</h1>
+                    <p>{this.props.smalltext}</p>
                 </div>
                 
 
