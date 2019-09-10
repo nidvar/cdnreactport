@@ -8,13 +8,6 @@ h1{
 .display{
 	text-align:center;
 }
-.body{
-	max-width:1000px;
-	margin:auto;
-	display:flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
 /* HEADER AREA  */
 .header{
 	background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ), url('images/bg.jpg') no-repeat center;
@@ -57,8 +50,24 @@ a:hover{
 .appbox img{
 	display:none;
 }
-
 /* ************ */
+/* body */
+.body{
+	max-width:1000px;
+	margin:auto;
+	display:flex;
+	flex-direction: column;
+}
+.appbox{
+	box-shadow: 2px 2px 1px grey;
+	border-radius:3px;
+	background-color:white;
+	padding:20px 20px 0 20px;
+	margin:20px;
+	background-color: beige;
+}
+/* ************ */
+
 .parallax1{
 	background-color:skyblue;
 }
@@ -67,13 +76,23 @@ a:hover{
 	justify-content: center;
 	margin:40px;
 }
+/*  DESKTOP  */
 @media only screen and (min-width: 600px) {
+	.body{
+		max-width:1000px;
+		margin:auto;
+		display:flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
 	.appbox{
 		box-shadow: 2px 2px 1px grey;
 		border-radius:3px;
 		background-color:white;
 		padding:20px 20px 0 20px;
 		margin:20px;
+		background-color: beige;
 	}
 	.appbox:hover{
 		box-shadow: 10px 10px 5px grey;
