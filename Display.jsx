@@ -11,10 +11,10 @@ class Display extends React.Component{
                         
                     <Statement text='App Portfolio'/>
                     <div className='body'>
-                        <Appbox image='images/weather.png' text='Weather App' />
-                        <Appbox image='images/todo_list.png' text='Todo List'/>
-                        <Appbox image='images/games.png' text='Games App' />
-                        <Appbox image='images/typingtest.png' text='Typing Test'/>
+                        <div className='appdiv'><a href='https://nidvar.github.io/weather/'><Appbox image='images/weather.png' text='Weather App' /></a></div>
+                        <div className='appdiv'><a href='https://nidvar.github.io/landing/'><Appbox image='images/todo_list.png' text='Todo List'/></a></div>
+                        <div className='appdiv'><Appbox image='images/games.png' text='Games App' /></div>
+                        <div className='appdiv'><a href='https://nidvar.github.io/typingtest/'><Appbox image='images/typingtest.png' text='Typing Test'/></a></div>
                     </div>
                     
 
