@@ -20,7 +20,19 @@ class Display extends React.Component{
 
                     <Parallax style_prop='parallax1' />
 
+                    <Statement text='Live Websites'/>
 
+                    <div className='bodyweb'>
+                        <div className='appdiv'><a href='http://goldenfalafel.com.au/'><Appbox image='images/goldenfalafel.png' /></a></div>
+                        <div className='appdiv'><a href='https://www.db-homes.com.au/'><Appbox image='images/dbhomes.png' /></a></div>
+                        <div className='appdiv'><a href='https://www.meadanhomes.com.au/'><Appbox image='images/meadanhomes.png' /></a></div>
+                        <div className='blackback appdiv'><a href='http://u4cmartialarts.com.au/'><Appbox image='images/u4c.png' /></a></div>
+                        <div className='appdiv'><a href='https://thetaxfactor.com.au/'><Appbox image='images/taxfactor.png' /></a></div>
+                        <div className='appdiv'><a href='https://osga.com.au'><Appbox image='images/osga.png' /></a></div>
+                        <div className='appdiv blackback'><a href='http://cube4security.com.au/'><Appbox image='images/cube.png' /></a></div>
+                        <div className='appdiv'><a href='https://elcoconstructions.com.au/'><Appbox image='images/elco.jpg' /></a></div>
+                        <div className='appdiv'><a href='http://intelligentss.com.au/'><Appbox image='images/intelligentss.png' /></a></div>
+                    </div>
 
                 {/* {body} */}
                 <Footer />

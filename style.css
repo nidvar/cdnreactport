@@ -23,7 +23,6 @@ h1{
 	height:80vh;
 }
 .header-statement{
-	border:1px solid white;
 	padding:10px 20px 0px 20px;
 }
 .ulcontainer{
@@ -141,7 +140,21 @@ h1{
 .sticky a{
 	color:black;
 }
-
+.blackback{
+	background-color:black;
+}
+.bodyweb .appbox{
+	height:150px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.bodyweb .appbox img{
+	display:block;
+	margin:20px auto 0 auto;
+	max-height:150px;
+	max-width:150px;
+}
 
 /*  DESKTOP  */
 /*  DESKTOP  */
@@ -157,9 +170,24 @@ h1{
 		justify-content: center;
 		flex-wrap: wrap;
 	}
+	.bodyweb{
+		max-width:1000px;
+		margin:auto;
+		display:flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.bodyweb .appbox{
+		height:150px;
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+	}
 	.appbox img{
 		display:block;
-		height:150px;
+		max-height:150px;
+		max-width:150px;
 	}
 	.appdiv{
 		box-shadow: 2px 2px 1px black;
@@ -200,5 +228,8 @@ h1{
 	.header p{
 		font-size:20px;
 		margin-bottom:30px;
+	}
+	.blackback{
+		background-color:black;
 	}
 }
