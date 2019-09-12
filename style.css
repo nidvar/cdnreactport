@@ -131,7 +131,11 @@ h1{
 	text-decoration:none;
 	color:orange;
 }
-
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
 
 
 /*  DESKTOP  */
@@ -158,5 +162,27 @@ h1{
 		background-color:white;
 		margin:20px;
 		background-color: beige;
+	}
+	.ulcontainer{
+		position: fixed;
+		padding:0;
+		width:100vw;
+		display:flex;
+		justify-content: flex-end;
+	}
+	.ulcontainer li{
+		list-style-type:none;
+		margin:20px 60px 7px 7px;
+	}
+	.sticky {
+		background-color:white;
+		padding-bottom:10px;
+		color:black;
+		position: fixed;
+		top: 0;
+		width: 100vw;
+	}
+	.sticky a{
+		color:black;
 	}
 }
