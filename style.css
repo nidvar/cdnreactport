@@ -63,15 +63,14 @@ h1{
 	flex-direction: column;
 }
 .appdiv{
-	box-shadow: 2px 2px 1px grey;
+	box-shadow: 2px 2px 1px black;
 	border-radius:3px;
 	background-color:white;
-	padding:20px 20px 0 20px;
-	margin:20px;
-	background-color: beige;
+	margin:10px;
+	border:1px solid gray;
 }
 .appdiv:hover{
-	box-shadow: 10px 10px 5px grey;
+	box-shadow: 10px 10px 5px black;
 }
 .appdiv a{
 	color:black;
@@ -132,9 +131,15 @@ h1{
 	color:orange;
 }
 .sticky {
+	background-color:white;
+	padding-bottom:10px;
+	color:black;
 	position: fixed;
 	top: 0;
-	width: 100%;
+	width: 100vw;
+}
+.sticky a{
+	color:black;
 }
 
 
@@ -157,11 +162,11 @@ h1{
 		height:150px;
 	}
 	.appdiv{
-		box-shadow: 2px 2px 1px grey;
+		box-shadow: 2px 2px 1px black;
+		border:1px solid gray;
 		border-radius:3px;
 		background-color:white;
 		margin:20px;
-		background-color: beige;
 	}
 	.ulcontainer{
 		position: fixed;
