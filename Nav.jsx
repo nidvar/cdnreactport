@@ -7,11 +7,11 @@ class Nav extends React.Component{
             if (window.scrollY==0) {
                 this.setState({
                     one:'ulcontainer'
-                },()=>{console.log(this.state)})
+                })
               }else{
                 this.setState({
                     one:'ulcontainer sticky'
-                },()=>{console.log(this.state)})
+                })
               }
         } 
     }
