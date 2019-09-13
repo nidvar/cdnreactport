@@ -6,7 +6,6 @@ a{
 	transition: 0.5s;
 }
 h1{
-	font-weight:lighter;
 	letter-spacing: 1px;
 }
 .display{
@@ -20,7 +19,7 @@ h1{
 	display:flex;
 	flex-direction: column;
 	color:white;
-	height:80vh;
+	height:100vh;
 }
 .header-statement{
 	padding:10px 20px 0px 20px;
@@ -72,17 +71,27 @@ h1{
 	box-shadow: 10px 10px 5px black;
 }
 .appdiv a{
-	color:black;
+	color:#191919;
 	text-decoration: none;
+	font-weight:bolder;
 }
 .appdiv a:visited{
-	color:black;
+	color:#191919;
 }
 /* ************ */
 
 .parallax1{
-	background-color:skyblue;
-	height:250px;
+	background: linear-gradient( rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7) ), url('images/parallax.jpg') no-repeat center center fixed;
+	background-color: linear-gradient( rgba(0,0,0,0.1), rgba(0, 0, 0, 0.1) );
+	background-size:cover;
+	margin:20px 0 20px 0;
+	height:350px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.parallax1{
+	color:white;
 }
 .statement-global{
 	display:flex;
@@ -231,5 +240,12 @@ h1{
 	}
 	.blackback{
 		background-color:black;
+	}
+	.major{
+		margin:0 40px 40px 40px;
+	}
+	.major img{
+		max-height:250px;
+		max-width:250px;
 	}
 }
