@@ -7,14 +7,11 @@ class Display extends React.Component{
                 <Header />
                 {/* {body} */}
 
-
-                        
                     <Statement text='Major Projects'/>
                     <div className='body'>
                         <div className='appdiv major'><a href='#'><Appbox image='images/weather.png' text='E-Commerce' /></a></div>
                         <div className='appdiv major'><a href='https://nidvar.github.io/typingtest/'><Appbox image='images/typingtest.png' text='Color Project'/></a></div>
                     </div>
-                    
 
                     <Parallax style_prop='parallax1' />
 
