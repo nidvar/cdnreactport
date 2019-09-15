@@ -20,6 +20,7 @@ class Display extends React.Component{
                         <div className='appdiv'><a href='https://nidvar.github.io/weather/'><Appbox image='images/weather.png' text='Weather App' /></a></div>
                         <div className='appdiv'><a href='https://nidvar.github.io/landing/'><Appbox image='images/todo_list.png' text='Todo List'/></a></div>
                         <div className='appdiv'><a href='https://nidvar.github.io/games/'><Appbox image='images/games.png' text='Mini Games' /></a></div>
+                        <div className='appdiv'><a href='https://nidvar.github.io/chatbox/'><Appbox image='images/chatroom.png' text='Online Chat' /></a></div>
                         <div className='appdiv'><a href='https://nidvar.github.io/typingtest/'><Appbox image='images/typingtest.png' text='Typing Test'/></a></div>
                     </div>
 
