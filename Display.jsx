@@ -13,8 +13,6 @@ class Display extends React.Component{
                         <div className='appdiv major'><a href='https://nidvar.github.io/typingtest/'><Appbox image='images/typingtest.png' text='Color Project'/></a></div>
                     </div>
 
-                    <Parallax style_prop='parallax1' />
-
                     <Statement text='Apps'/>
                     <div className='body'>
                         <div className='appdiv'><a href='https://nidvar.github.io/weather/'><Appbox image='images/weather.png' text='Weather App' /></a></div>
@@ -24,7 +22,7 @@ class Display extends React.Component{
                         <div className='appdiv'><a href='https://nidvar.github.io/searchimage/'><Appbox image='images/search.png' text='Image Finder'/></a></div>
                         <div className='appdiv'><a href='https://nidvar.github.io/typingtest/'><Appbox image='images/typingtest.png' text='Typing Test'/></a></div>
                     </div>
-
+                    <Parallax style_prop='parallax1' />
                     <Statement text='Live Websites'/>
 
                     <div className='bodyweb'>

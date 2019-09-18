@@ -6,7 +6,7 @@ class Header extends React.Component{
 
                 <Nav />
                 <div className='flex-container'>
-                    <Statement text='Web Developement' smalltext='JavaScript | React | Node' style_prop='header-statement'  />
+                    <Statement text='JS Developer' smalltext='JavaScript | React | Node' style_prop='header-statement'  />
                 </div>
 
                 {/* end here */}
