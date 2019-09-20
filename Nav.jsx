@@ -1,31 +1,16 @@
 class Nav extends React.Component{
-    state={
-        one:'ulcontainer'
-    }
-    handleScroll=()=>{
-        window.onscroll=()=>{
-            if (window.scrollY==0) {
-                this.setState({
-                    one:'ulcontainer'
-                })
-              }else{
-                this.setState({
-                    one:'ulcontainer sticky'
-                })
-              }
-        } 
+    apps=(e)=>{
+        this.props.grab_data(e.target.innerText)
     }
     render(){
         return(
-            <div>
-                {this.handleScroll()}
-                <div className='nav'>
-                    <ul className={this.state.one}>
-                        <li><a href='#'>APPS</a></li>
-                        <li><a href='#'>WEBSITES</a></li>
-                        <li><a href='#'>ABOUT</a></li>
-                    </ul>
-                </div>
+            <div className='Nav'>
+                <a href='#' onClick={this.apps}><h1>NIDVAR</h1></a>
+                <ul>
+                    <li><a href='#' onClick={this.apps}>Apps</a></li>
+                    <li><a href='#' onClick={this.apps}>Websites</a></li>
+                    <li><a href='#' onClick={this.apps}>About</a></li>
+                </ul>
             </div>
         )
     }

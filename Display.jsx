@@ -1,45 +1,26 @@
 class Display extends React.Component{
+    state={
+        display:'NIDVAR',
+    }
+    grab_data=(data)=>{
+        this.setState({display:data})
+    }
+    display_on_page=()=>{
+        if(this.state.display==='NIDVAR'){
+            return <Main />
+        }else if(this.state.display==='Apps'){
+            return <Apps />
+        }else if(this.state.display==='Websites'){
+            return <Websites />
+        }else if(this.state.display==='About'){
+            return <About />
+        }
+    }
     render(){
         return(
-            <div className='display'>
-                {/* start here */}
-
-                <Header />
-                {/* {body} */}
-
-                    <Statement text='Major Projects'/>
-                    <div className='body'>
-                        <div className='appdiv major'><a href='#'><Appbox image='images/weather.png' text='E-Commerce' /></a></div>
-                        <div className='appdiv major'><a href='https://nidvar.github.io/typingtest/'><Appbox image='images/typingtest.png' text='Color Project'/></a></div>
-                    </div>
-
-                    <Statement text='Apps'/>
-                    <div className='body'>
-                        <div className='appdiv'><a href='https://nidvar.github.io/weather/'><Appbox image='images/weather.png' text='Weather App' /></a></div>
-                        <div className='appdiv'><a href='https://nidvar.github.io/landing/'><Appbox image='images/todo_list.png' text='Todo List'/></a></div>
-                        <div className='appdiv'><a href='https://nidvar.github.io/games/'><Appbox image='images/games.png' text='Mini Games' /></a></div>
-                        <div className='appdiv'><a href='https://nidvar.github.io/chatbox/'><Appbox image='images/chatroom.png' text='Online Chat' /></a></div>
-                        <div className='appdiv'><a href='https://nidvar.github.io/searchimage/'><Appbox image='images/search.png' text='Image Finder'/></a></div>
-                        <div className='appdiv'><a href='https://nidvar.github.io/typingtest/'><Appbox image='images/typingtest.png' text='Typing Test'/></a></div>
-                    </div>
-                    <Parallax style_prop='parallax1' />
-                    <Statement text='Live Websites'/>
-
-                    <div className='bodyweb'>
-                        <div className='appdiv'><a href='http://goldenfalafel.com.au/'><Appbox image='images/goldenfalafel.png' /></a></div>
-                        <div className='appdiv'><a href='https://www.meadanhomes.com.au/'><Appbox image='images/meadanhomes.png' /></a></div>
-                        <div className='blackback appdiv'><a href='http://u4cmartialarts.com.au/'><Appbox image='images/u4c.png' /></a></div>
-                        <div className='appdiv'><a href='https://thetaxfactor.com.au/'><Appbox image='images/taxfactor.png' /></a></div>
-                        <div className='appdiv'><a href='https://osga.com.au'><Appbox image='images/osga.png' /></a></div>
-                        <div className='appdiv blackback'><a href='http://cube4security.com.au/'><Appbox image='images/cube.png' /></a></div>
-                        <div className='appdiv'><a href='https://elcoconstructions.com.au/'><Appbox image='images/elco.jpg' /></a></div>
-                        <div className='appdiv'><a href='http://intelligentss.com.au/'><Appbox image='images/intelligentss.png' /></a></div>
-                    </div>
-
-                {/* {body} */}
-                <Footer />
-
-                {/* end here */}
+            <div>
+                <Nav grab_data={this.grab_data} />
+                {this.display_on_page()}
             </div>
         )
     }
