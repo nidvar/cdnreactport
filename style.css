@@ -123,3 +123,94 @@ body{
 .Justapps h3{
 	margin:0 0 10px 50px;
 }
+
+@media only screen and (max-width: 600px) {
+	body {
+	  padding:20px;
+	}
+	.Nav h1{
+		color:#212529;
+		font-weight:bolder;
+		font-size:30px;
+		text-align:center;
+	}
+	.Nav{
+		letter-spacing: 1px;
+		display:block;
+		justify-content: baseline;
+		align-items: center;
+		margin:0 0 20px 0;
+	}
+	.Nav ul{
+		margin:0;
+		padding:0;
+		justify-content: space-around;
+	}
+	.Main{
+		text-align:center;
+	}
+	.Main h1{
+		font-size:40px;
+	}
+	.Main h4{
+		font-size:25px;
+	}
+	.About{
+		text-align: center;
+		margin:20px 0 0 0;
+		display:block;
+		width:100%;
+	}
+	.Websites{
+		width:100%;
+		display:flex;
+		flex-direction: center;
+		justify-content: center;
+		margin:0;
+		padding:0;
+	}
+	.flex_row{
+		display:block;
+		flex-wrap: none;
+	}
+	.Apps{
+		text-align:center;
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.Major .Justapps{
+		width:100%;
+	}
+	.Justappsflex{
+		display:block;
+		flex-wrap: none;
+	}
+	.appboxes img{
+		padding:20px;
+		width:200px;
+		height:200px;
+	}
+	.appboxes{
+		margin:20px;
+		text-align:center;
+		font-weight:bolder;
+	}
+	.appboxes:hover{
+		box-shadow:1px 1px 1px gray;
+	}
+	.Justapps h3{
+		margin:0;
+	}
+
+
+
+
+
+
+
+
+
+
+  }
