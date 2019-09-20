@@ -60,9 +60,9 @@ body{
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
 	width:800px;
 	margin:auto;
+	text-align:justify;
 }
 /* ***************************************** */
 .Websites{
@@ -93,4 +93,33 @@ body{
 }
 .black{
 	background-color:black;
+}
+.Apps{
+	display:flex;
+}
+.Major{
+	min-width:30vw;
+}
+.Justapps{
+	min-width:50vw;
+}
+.Justappsflex{
+	display:flex;
+	flex-wrap: wrap;
+}
+.appboxes img{
+	padding:20px;
+	width:200px;
+	height:200px;
+}
+.appboxes{
+	margin:20px;
+	text-align:center;
+	font-weight:bolder;
+}
+.appboxes:hover{
+	box-shadow:1px 1px 1px gray;
+}
+.Justapps h3{
+	margin:0 0 10px 50px;
 }
