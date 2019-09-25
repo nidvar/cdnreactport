@@ -16,6 +16,7 @@ class Apps extends React.Component{
                         <AppBoxes className='appboxes' title='Weather App' image='images/weather.png' source='https://nidvar.github.io/weather/' />
                         <AppBoxes className='appboxes' title='Find Images' image='images/search.png' source='https://nidvar.github.io/searchimage/' />
                         <AppBoxes className='appboxes' title='Typing Test' image='images/typingtest.png' source='https://nidvar.github.io/typingtest/' />
+                        <AppBoxes className='appboxes' title='Youtube Clone' image='images/search.png' source='https://nidvar.github.io/myvideo/' />
                     </div>
                 </div>   
             </div>
