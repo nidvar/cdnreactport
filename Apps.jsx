@@ -1,12 +1,7 @@
 class Apps extends React.Component{
     render(){
         return(
-            <div className='Apps'>
-                <div className='Major'>
-                    <h3>Major Projects</h3>
-                    <h1>COMING SOON</h1>
-                </div>
-                
+            <div className='Apps'>          
                 <div className='Justapps'>
                     <h3>Apps</h3>
                     <div className='Justappsflex'>
